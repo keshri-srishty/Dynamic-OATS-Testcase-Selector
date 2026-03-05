@@ -4,9 +4,7 @@ description: Analyzes PR diffs and comments to identify impacted CPS-API areas a
 handoffs:
   - label: Send impact scope to Test Synthesizer
     agent: Test Synthesizer
-    prompt: >
-      Here is the impact scope JSON produced by the Change Impact Analyzer.
-      Use it as your input to select existing OATS tests, identify gaps, and generate new scripts if necessary.
+    prompt: "Here is the impact scope JSON produced by the Change Impact Analyzer. Use it as your input to select existing OATS tests, identify gaps, and generate new scripts if necessary."
     send: true
 ---
 
