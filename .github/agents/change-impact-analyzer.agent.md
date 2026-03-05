@@ -3,7 +3,7 @@ name: Change Impact Analyzer
 description: Analyzes PR diffs and comments to identify impacted CPS-API areas and produce a focused sanity test scope.
 handoffs:
   - label: Send impact scope to Test Synthesizer
-    agent: test-synthesizer
+    agent: Test Synthesizer
     prompt: >
       Here is the impact scope JSON produced by the Change Impact Analyzer.
       Use it as your input to select existing OATS tests, identify gaps, and generate new scripts if necessary.
